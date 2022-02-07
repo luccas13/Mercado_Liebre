@@ -1,0 +1,21 @@
+{
+  "name": "dh-mercado-liebre",
+  "version": "1.0.0",
+  "description": "Trabajo práctico DH módulo 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Bracco Lucas Oscar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
