@@ -155,6 +155,22 @@ footer > div p {
     display: flex;
     flex-direction: column;
 }
+.titulo-ofertas {
+    margin: 2rem 0 2rem;
+}
+.lista-productos > article {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    /* width: 20%; */
+    padding: .5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+}
+.img-producto {
+    width: 90%;
+}
 @media screen and (min-width: 1024px) {
     .logo {
         width: 30%;
@@ -173,8 +189,5 @@ footer > div p {
         width: 20%;
         padding: .5rem;
         box-shadow: 0 0 5px rgba(0, 0, 0, .25);
-    }
-    .img-producto {
-        width: 90%;
     }
 }
