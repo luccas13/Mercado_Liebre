@@ -25,12 +25,8 @@ h4 {
     display: block;
     margin-bottom: 10px;
 }
-header > ul {
-    padding: 0;
-    margin: 0;
-}
-header > ul > li {
-    list-style: none;
+.nav-bar {
+    display: none;
 }
 .burger-menu {
     background-color: #1259c3;
@@ -52,7 +48,7 @@ header > ul > li {
 }
 .banner__container {
     width: 100%;
-    margin: 10px 0 0;
+    /* margin: 10px 0 0; */
 }
 .banner__container img {
     width: 100%;
@@ -174,6 +170,28 @@ footer > div p {
 @media screen and (min-width: 1024px) {
     .logo {
         width: 30%;
+    }
+    .nav-bar {
+        display: flex;
+        margin: 2rem 0;
+    }
+    .nav-bar > .list {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 50%;
+    }
+    .nav-bar > .list:first-child {
+        justify-content: start;
+    }
+    .nav-bar > .list:last-child {
+        justify-content: end;
+    }
+    .nav-bar > .list > .list-item {
+        list-style: none;
+    }
+    .nav-bar > .list > .list-item + .list-item {
+        margin-left: 2em;
     }
     .lista-productos {
         display: flex;
